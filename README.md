@@ -79,6 +79,7 @@ Following items in proposed DoD have been bolded due
 3)    Similar to the first item. In traditional project methods this is usually done by Vendor’s PM after approvals have been made during project steering group. In agile concept documentation is normally not maintained at all. However as the concept documentation is most likely an acceptance criteria of this project it needs to be maintained to showcase the changes that we have made during the project. 
 4)    Approval of the documentation should be part of DoD especially initially. Each organization has their own documentation practices and the purpose of this is to ensure that we start doing it “right” from the very beginning. 
  
+ 
 2.2 Web / server specific QA during deployment process
  
 The deployment process is a process how new release (or a version in master branch) is deployed to production. For this process there are three relevant environments.
@@ -150,12 +151,14 @@ Mobile backend
 Usually mobile app connects to a backend service via mobile network. To get the most out of testing, the tester needs to have a full control of the backend where the mobile application is connected to in order to prepare for and execute different end to end  test scenarios.
 
 2.3.2 Mobile app test releases
+
 In mobile devices the test build installation can be done: 
 Locally by cable using development SDK tools 
 Controlled wirelessly via build distribution tools like TestFlight or HockeyApp. Releasing frameworks usually support crash log collection and version data. Dev, Alpha and Beta releases can also be provided in order to collect feedback before releasing the application to stores.
 Google Play store has option to set up alpha and beta test groups where the specific app is available for the group members only
  
 2.3.3 Analytics testing
+
 In modern mobile applications analytics and data collection represent critical functionality which also needs testing.  Futurice considers this to be important part of functional testing. 
 
 Due to fact that the mobile app update process differs from the web apps one, the analytics setup needs to get right from the first try or then valuable data is missed. Update process is done via application store procedures, but whether the update will be done or not is up to the user settings and activity. So if the first version misses some critical analytics functionality and some users never update the application, that data will then be missed.
