@@ -27,20 +27,24 @@ Pair programming
 Futurice uses Pair programming method when applicable. This is very convenient way to share knowledge and experience about the project and software under development.
  
 Code review
+
 Reviewing the code helps other team members to get information of certain functionality and gives a possibility to give feedback to responsible person and also ensures knowledge sharing between team members.
  
-Manual functional testing 
+Manual functional testing
+
 Manual testing is mostly done using Exploratory testing methodology and found errors are either fixed right away or prioritised and recorded to task/story/error management tool. Exploring the app or service can be started right after something functional is “ready”.
  
 Exploratory testing is a very powerful tool in end to end testing where the whole system is covered by testing. In the method tester goes beyond what can be defined in a test case, applies user-like thinking as well as tries to break the system by various error scenarios and is never “done” with testing. 
  
 Non functional testing - localization, usability, performance/load testing
+
 Around the functional requirements and testing there are usually non-functional requirements which can be tested applying  localisation, usability, performance and load testing. The needs and the tools are projects specific. 
 For usability testing Futurice has a mobile usability lab for use. 
 For Performance tests Futurice has used web based services like BrowserMob to name one. 
 For Load testing LoadUI and J meter are actively in use to validate service capabilities in high traffic and to find possible service bottlenecks.
  
 Error management
+
 Issues found are recorded to a specific tool or board with a information like priority, environment (software and device information), steps to reproduce, expected result, time and date and a screenshot. 
 Tools like Jira, Trello, PivotalTracker, Request Tracker are actively used also for error tracking.
  
