@@ -142,9 +142,11 @@ Test devices
 Futurice has a good variety of different devices and operating system versions in the device library, ranging from basic phones to advanced tablets.
  
 Data traffic heavy services
+
 For heavy data traffic application testing and performance validation Futurice has been using Elisa test lab (Elisa is a Finnish mobile service provider). Within the laboratory environment different loads and speeds can be tested in controlled / isolated environment without a need to arrange expensive and not that effective field testing sessions.
 
 Mobile backend
+
 Usually mobile app connects to a backend service via mobile network. To get the most out of testing, the tester needs to have a full control of the backend where the mobile application is connected to in order to prepare for and execute different end to end  test scenarios.
 
 2.3.2 Mobile app test releases
